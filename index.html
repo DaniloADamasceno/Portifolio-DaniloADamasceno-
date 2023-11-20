@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- imports de Bootstrap e CSS Imports -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Título -->
+  <title>Danilo A. Damasceno</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+  <div class="hero-bg">
+    <!-- HEADER  -->
+    <header class="container-fluid py-3 px-4">
+      <nav class="navbar fixed-top navbar-expand-lg mb-0 mb-lg-5">
+        <a href="/" class="navbar-brand">
+
+        </a>
+
+        <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navigation me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#article">Cursos e Certificações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Customer">Contato</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+      <svg class="bottom-curve" viewBox="0 0 834 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M242.5 2.48937C135.3 -9.90908 37.6667 26.7931 0 51.0969V99H834V14.4651C519.5 90.5465 449 26.3726 242.5 2.48937Z"
+          fill="white" />
+      </svg>
+
+
+      <!----------------- Descrição inicial ---------------->
+      <div id="Home" class="row gy-5">
+        <div class="col-lg-6 text-white">
+          <h1 class="hero-header mt-5">Danilo A. Damasceno</h1>
+          <p class="hero-subheader mt-4">🚀 Graduando em Engenharia Mecatrônica e Desenvolvedor Java: Transformando
+            paixão por programação e inovação em realidade! 🚀.</p>
+
+          <div class="hero-cto mt-5">
+            <button class="btn get-start btn-primary px-4 py-2 rounded-pill"><a id="pdf"
+                href="/assets/img/Danilo A Desenvolvedor JAVA_Kotlin.pdf" target="_fblank"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path
+                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
+                </svg>
+                Currículo</a></button>
+            <button class="btn get-start btn-primary px-4 py-2 rounded-pill"><a id="pdf"
+                href=" https://api.whatsapp.com/send?phone=5561983485624&text=Eu%20vi%20seu%20portf%C3%B3lio%20e%20fiquei%20impressionado%20com%20o%20seu%20trabalho.%20Gostaria%20de%20discutir%20mais%20detalhes%20sobre%20seus%20projetos.%20Por%20favor,%20poder%C3%ADamos%20agendar%20uma%20reuni%C3%A3o%20para%20conversar%20mais%20sobre%20isso?%20Aguardo%20sua%20resposta.%20Obrigado."
+                target="_fblank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+                WhatsApp</a></button>
+
+
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image">
+            <img class="feature" src="assets/img/Technology-PNG-Free-Download.png" alt="hero feature image">
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- --------------------------- Sobre ------------------------------------ -->
+  <section id="About" class="task-section mt-0 mt-md-5 px-4">
+    <div
+      class="row align-items-lg-center task-content gx-2 gy-5  justify-content-between flex-column-reverse flex-lg-row">
+      <div class="col col-lg-6">
+        <img class="task-feature" src="assets/img/21004063.jpg" alt="task picture">
+      </div>
+      <div class="col col-lg-6">
+        <div class="taskSec-content mt-0 mt-md-5">
+          <h1 class="section-heading fs-1 mb-4">Desenvolvedor BackEnd </h1>
+          <p class="section-subhead">Como graduando em Engenharia Mecatrônica e Desenvolvedor Java | Kotlin, sempre me
+            apaixonei pelo mundo da programação e inovação, especialmente no contexto do Desenvolvimento de Software.
+          </p>
+          <p class="section-subhead">Com uma forte inclinação para soluções criativas e eficazes, estou constantemente
+            impulsionado pela busca da excelência em projetos que envolvam tecnologias Java, Kotlin, Android,
+            Javascript, Ruby, Arduino, C++, Angular e Liferay, além de arquiteturas de microsserviços. </p>
+          <p class="section-subhead">Desde o início da minha formação, descobri minha verdadeira paixão pelo Java e
+            tenho dedicado esforços para aprimorar minhas habilidades nessa linguagem. Além disso, estou comprometido
+            com uma mentalidade de aprendizado contínuo, promovendo a criatividade e a colaboração em equipe como
+            valores fundamentais no meu trabalho.
+            .</p>
+          <!-- <button class="btn mt-4 task-section-cto px-4 py-2 rounded-pill">Browse integrations</button> -->
+        </div>
+      </div>
+    </div>
+
+    <img class="round-shape" src="assets/img/round.svg" alt="round shape">
+  </section>
+
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <!----------------------------- Projetos ----------------------->
+  <section id="Contact">
+    <svg class="pricing-top-curve" viewBox="0 0 822 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M822 49C509.2 -35 143.667 14 0 49V0H822V49Z" fill="white" />
+    </svg>
+
+    <div class="pricing-wrapper m-auto">
+      <div class="pricing-header m-auto">
+        <br><br><br>
+        <h1 class="section-heading text-center fs-1">Projetos</h1>
+        <p class="section-subhead text-center">Cada um deles é um testemunho do meu compromisso com a excelência e a
+          busca constante por soluções que fazem a diferença.</p>
+
+      </div>
+
+      <div class="pricing-wrapper row mt-5 row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
+        <div class="col">
+          <div class="card border-0 mb-4">
+            <div class="card-header px-5 text-white py-4">
+              <h4 class="my-0 mb-3 fs-5">Projetos</h4>
+              <p class="pricing-q mb-0">JavaScript <span class="ms-2"></span></p>
+            </div>
+            <div class="card-body px-5 pb-4">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Calculadora-Simples">Calculadora Simples (Factory
+                    Functions)</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Calculadora-Simples---Constructor-Functions">Calculadora
+                    Simples II (Constructor Functions)</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Calculadora-de-IMC">Calculadora de IMC</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Lista-de-Tarefas">Lista de Tarefas</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Clock-Timer">Clock Timer</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Landing-Page-Portifolio">Landing Page Portifolio</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Html-e-CSS">Landing Page</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 basic mb-4">
+            <div class="card-header border-0 px-5 text-white py-4">
+              <h4 class="my-0 mb-3 fs-5">Projetos </h4>
+              <p class="pricing-q mb-0">JAVA <span class="ms-2"></span></p>
+              <span class="recommendad text-center text-dark">BackEnd</span>
+            </div>
+            <div class="card-body px-5 pb-4">
+              <ul class="list-unstyled mt-3 mb-4 text-white">
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Help-Desk">Help Desk</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Angular-com-Spring-Boot">Angular com Spring Boot- AWS</a>
+                </li>
+                <li><i class="fa-solid fa-circle-check me-3 link-opacity-*-hover "></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Produto-em-Estoque">Produtos em Estoque</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/https://github.com/DaniloADamasceno/Projetos-JAVA">Projetos
+                    JAVA</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Crud-Java">Projeto CRUD JAVA</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/API-Rest-com-Spring-Boot">API Rest com Spring Boot</a>
+                </li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Web-Service-com-Spring-Boot-JPA-e-Hibernate">Web Service
+                    com Spring Boot JPA e Hibernate</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository"
+                    href="https://github.com/DaniloADamasceno/Microservices-with-Spring-Boot-and-Spring-Cloud">Microsserviços
+                    com Spring Boot and Spring Cloud</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 mb-4">
+            <div class="card-header px-5 text-white text-center py-4">
+              <h4 class="my-0 mb-3 fs-5"> Arduino | Liferay | C ++ | Kotlin</h4>
+              <!-- <p class="pricing-q mb-0"><span class="ms-1"></span></p> -->
+            </div>
+            <div class="card-body px-5 pb-4">
+              <ul class="list-unstyled mt-3 mb-4">
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Projeto-Liferay">Projeto Liferay</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Projetos-Basicos-em-Arduino">Projeto Básicos com
+                    Arduino</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Farmacia-em-Casa">Farmacia em Casa</a></li>
+                <li><i class="fa-solid fa-circle-check me-3"></i><a id="links-repository-dark"
+                    href="https://github.com/DaniloADamasceno/Kotlin">Kotlin</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="bottom-curve" viewBox="0 0 834 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M242.5 2.48937C135.3 -9.90908 37.6667 26.7931 0 51.0969V99H834V14.4651C519.5 90.5465 449 26.3726 242.5 2.48937Z"
+        fill="#6610f2" />
+    </svg>
+  </section>
+
+
+  <!-- --------------------------- Hard Skills ------------------------------------ -->
+  <section id="skills" class="chat-section mt-5 px-4">
+    <div class="container">
+      <div class="chatSec-content mt-5">
+        <h1 class="section-heading fs-1 mb-3">Hard Skills</h1>
+        <p class="section-subhead">Habilidades aprimoradas ao longo de uma jornada na programação..</p>
+      </div>
+      <div class="row gx-3 justify-content-between">
+        <div class="col-lg-3 col-md-6">
+          <img class="chat-feature" src="assets/img/KotlinLogo.png" alt="Kotlin Logo">
+          <img class="chat-feature" src="assets/img/AngularLogo.png" alt="Angular Logo">
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img class="chat-feature" src="assets/img/javaLogo.png" alt="Java Logo">
+          <img class="chat-feature" src="assets/img/SpringLogo.png" alt="Spring Boot Logo">
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img class="chat-feature" src="assets/img/liferayLogo.png" alt="Liferay Logo">
+          <img class="chat-feature" src="assets/img/arduinoLogo.png" alt="Arduino Logo">
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <img class="chat-feature" src="assets/img/javascriptLogo.png" alt="Javascript Logo">
+          <img class="chat-feature" src="assets/img/c++logo2.svg" alt="C++ logo Logo">
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!----------------------- Cursos e Certificações ----------------------->
+  <section id="article">
+    <div class="article-heading-wrapper flex-wrap m-auto d-flex justify-content-between align-items-center">
+      <h1 class="section-heading">Cursos e Certificações </h1>
+      <p class="mt-2 mt-lg-0  ">Ao longo da minha jornada acadêmica e profissional, tive a oportunidade de participar de
+        diversos cursos e obter várias certificações. Essas experiências me permitiram aprimorar minhas habilidades
+        técnicas e adquirir novos conhecimentos. . Estou sempre em busca de novas oportunidades de aprendizado para
+        continuar crescendo e me desenvolvendo na minha área de atuação.</p>
+    </div>
+
+    <!-- slider -->
+    <div class="slider-wrapper mt-5 mt-sm-4 position-relative ms-lg-5 ps-lg-5">
+      <img src="assets/img/article-bg.svg" class="article-bg-svg">
+
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="article-carousel carousel slide p-0" data-bs-interval="false"
+          data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Certificado Kotlin Front.jpg" class="img-fluid rounded-start"
+                        alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Setembro, 2023</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Certificado de Desenvolvedor Android</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Microsservicos java.jpg" class="img-fluid rounded-start" alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Maio, 2023</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Microservices java com Spring Boot and Spring Cloud</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Java.jpg" class="img-fluid rounded-start" alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Março, 2023</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Java</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Certificado - GIT.jpg" class="img-fluid rounded-start" alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Setembro, 2022</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Git do Básico ao Avançado</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/C e C++_page-0001.jpg" class="img-fluid rounded-start" alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Maio, 2022</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Curso Completo de Linguagem C e C++</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Certificado Mql5_page-0001.jpg" class="img-fluid rounded-start"
+                        alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Janeiro, 2022</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Programação de Robôs de investimento com MQL5</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Autoação Arduino_page-0001.jpg" class="img-fluid rounded-start"
+                        alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Maio, 2021</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Automação Residencial com Arduino</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-md-3">
+                <div class="card p-sm-4 bg-white border-0 me-md-4 mb-3">
+                  <div class="row g-0">
+                    <div class="col-5">
+                      <img src="assets/img/Mecânica.jpg" class="img-fluid rounded-start" alt="article image">
+                      <div class="post-time section-subhead fs-6 mt-3">
+                        <small class="d-block text-muted">Postado em</small>
+                        <span class="date d-block">Junho, 2016</span>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="ms-sm-3 card-body mt-3 p-0">
+                        <h5 class="card-title section-heading">Mecânica de Maquinas agrícolas de pequeno porte</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="rounded-circle carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon rounded-circle d-flex justify-content-center align-items-center"
+              aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
+          </a>
+          <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon rounded-circle d-flex justify-content-center align-items-center"
+              aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-------------------- customer---------------- -->
+  <section id="Customer">
+    <h1 class="fs-1 text-center m-auto section-heading customer-heading">Entre em Contato através de uma das redes...
+    </h1>
+
+
+    <div class="w-100 mt-5 m-auto d-block  section-heading text-center fs-1">
+
+      <!-- Gmail -->
+      <button class="btn get-start">
+        <a id="pdf"
+          href="mailto:danilo.engauto@gmail.com?subject=Portifólio &body=Eu%20vi%20seu%20portf%C3%B3lio%20e%20fiquei%20impressionado%20com%20o%20seu%20trabalho.%20Gostaria%20de%20discutir%20mais%20detalhes%20sobre%20seus%20projetos.%20Por%20favor%2C%20poder%C3%ADamos%20agendar%20uma%20reuni%C3%A3o%20para%20conversar%20mais%20sobre%20isso%3F%20Aguardo%20sua%20resposta.%20Obrigado."
+          target="_fblank">
+          <i class="fab fa-google fa-4x" style="color: #dd4b39;"></i></a>
+      </button>
+
+      <!-- Instagram -->
+      <button class="btn get-start">
+        <a id="pdf" href="https://www.instagram.com/daniloa.damasceno/" target="_fblank">
+          <i class="fab fa-instagram fa-4x" style="color: #ac2bac;"></i></a>
+      </button>
+
+      <!-- LinkedIn -->
+      <button class="btn get-start">
+        <a id="pdf" href="https://www.linkedin.com/in/daniloadamasceno/" target="_fblank">
+          <i class="fab fa-linkedin-in fa-4x" style="color: #0082ca;"></i></a>
+      </button>
+
+      <!-- Github -->
+
+      <button class="btn get-start">
+        <a id="pdf" href="https://github.com/DaniloADamasceno" target="_fblank">
+          <i class="fab fa-github fa-4x" style="color: #333333;"></i></a>
+      </button>
+
+      <!-- Whatsapp -->
+      <button class="btn get-start">
+        <a id="pdf"
+          href=" https://api.whatsapp.com/send?phone=5561983485624&text=Eu%20vi%20seu%20portf%C3%B3lio%20e%20fiquei%20impressionado%20com%20o%20seu%20trabalho.%20Gostaria%20de%20discutir%20mais%20detalhes%20sobre%20seus%20projetos.%20Por%20favor,%20poder%C3%ADamos%20agendar%20uma%20reuni%C3%A3o%20para%20conversar%20mais%20sobre%20isso?%20Aguardo%20sua%20resposta.%20Obrigado."
+          target="_fblank">
+          <i class="fab fa-whatsapp fa-4x" style="color: #25d366;"></i></a>
+      </button>
+    </div>
+  </section>
+
+
+  <!---------- footer ------------>
+  <footer class="section-heading text-center footer">
+    <!--Link para acessar minhas redes socais -->
+    <p> <a class="link-footer" rel="nofollow" target="_blank" href="https://linkr.bio/DaniloA.Damasceno"> Feito por
+        Danilo A.
+        Damasceno</a> </p>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/aa08d20a7f.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
